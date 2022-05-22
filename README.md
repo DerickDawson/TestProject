@@ -46,7 +46,3 @@ To run it again, update below variables to next value and then run.
 -	REGISTER_LOGIN_USER
 -	NEW_UPDATE_USER
 
-
-
-
-![image](https://user-images.githubusercontent.com/22557130/169684959-ee696501-fd41-46f3-a2d2-98f421f97c14.png)
