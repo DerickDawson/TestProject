@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <parameter name="userName" value="thor0200"></parameter>
+  <parameter name="password" value="thor0200"></parameter>
+  <test name="RegisterUser">
+    <classes>
+      <class name="com.superheroes.tests.UserCreationTest"/>
+    </classes>
+  </test> 
+  <test name="Challenge_TakeBus">
+    <classes>
+      <class name="com.superheroes.tests.TakethebusChallengeTest"/>
+    </classes>
+  </test> 
+  <test name="Challenge_PublicPlace">
+    <classes>
+      <class name="com.superheroes.tests.GoToAPublicPlaceTest"/>
+    </classes>
+  </test>
+</suite> 
