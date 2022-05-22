@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-22T01:56:47 CDT" name="Default suite" finished-at="2022-05-22T01:56:56 CDT" duration-ms="8291">
+    <groups>
+    </groups>
+    <test started-at="2022-05-22T01:56:47 CDT" name="Default test" finished-at="2022-05-22T01:56:56 CDT" duration-ms="8291">
+      <class name="com.supervillain.tests.Covid19TheGameVillain">
+        <test-method signature="testSuperVillainVerifyToken()[pri:0, instance:com.supervillain.tests.Covid19TheGameVillain@525f1e4e]" started-at="2022-05-22T01:56:47 CDT" name="testSuperVillainVerifyToken" finished-at="2022-05-22T01:56:51 CDT" duration-ms="3569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuperVillainVerifyToken -->
+        <test-method signature="testAddNewUser()[pri:0, instance:com.supervillain.tests.Covid19TheGameVillain@525f1e4e]" started-at="2022-05-22T01:56:51 CDT" name="testAddNewUser" finished-at="2022-05-22T01:56:52 CDT" depends-on-methods="com.supervillain.tests.Covid19TheGameVillain.testSuperVillainVerifyToken" duration-ms="758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNewUser -->
+        <test-method signature="testListofUsers()[pri:0, instance:com.supervillain.tests.Covid19TheGameVillain@525f1e4e]" started-at="2022-05-22T01:56:52 CDT" name="testListofUsers" finished-at="2022-05-22T01:56:53 CDT" depends-on-methods="com.supervillain.tests.Covid19TheGameVillain.testSuperVillainVerifyToken" duration-ms="1713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListofUsers -->
+        <test-method signature="testUserRegistration()[pri:0, instance:com.supervillain.tests.Covid19TheGameVillain@525f1e4e]" started-at="2022-05-22T01:56:53 CDT" name="testUserRegistration" finished-at="2022-05-22T01:56:54 CDT" depends-on-methods="com.supervillain.tests.Covid19TheGameVillain.testSuperVillainVerifyToken" duration-ms="709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserRegistration -->
+        <test-method signature="testUpdateUser()[pri:0, instance:com.supervillain.tests.Covid19TheGameVillain@525f1e4e]" started-at="2022-05-22T01:56:54 CDT" name="testUpdateUser" finished-at="2022-05-22T01:56:55 CDT" depends-on-methods="com.supervillain.tests.Covid19TheGameVillain.testAddNewUser" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method signature="testUserLogin()[pri:0, instance:com.supervillain.tests.Covid19TheGameVillain@525f1e4e]" started-at="2022-05-22T01:56:55 CDT" name="testUserLogin" finished-at="2022-05-22T01:56:56 CDT" depends-on-methods="com.supervillain.tests.Covid19TheGameVillain.testUserRegistration, com.supervillain.tests.Covid19TheGameVillain.testSuperVillainVerifyToken" duration-ms="715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserLogin -->
+      </class> <!-- com.supervillain.tests.Covid19TheGameVillain -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
